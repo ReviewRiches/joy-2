@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joy's Affiliate Blog</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            background: #444;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            display: block;
+        }
+        nav ul li a:hover {
+            background: #555;
+            border-radius: 5px;
+        }
+        .search-container {
+            text-align: center;
+            margin: 20px;
+        }
+        .search-container input {
+            padding: 10px;
+            width: 50%;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        .search-container button {
+            padding: 10px;
+            border-radius: 5px;
+            background: #333;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        section {
+            padding: 40px;
+            text-align: center;
+            background: white;
+            margin: 20px auto;
+            max-width: 80%;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        section img {
+            width: 100%;
+            max-width: 600px;
+            border-radius: 10px;
+            margin-top: 15px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Joy's Affiliate Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#home-decor">Home Décor</a></li>
+                <li><a href="#fitness">Fitness</a></li>
+                <li><a href="#tech-gadgets">Tech Gadgets</a></li>
+                <li><a href="#fashion">Fashion</a></li>
+                <li><a href="#blog">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="search-container">
+        <input type="text" placeholder="Search for products, blogs...">
+        <button>Search</button>
+    </div>
+    
+    <section id="home">
+        <h2>Welcome to Joy's Affiliate Blog</h2>
+        <p>Find the best recommendations on Home Décor, Fitness, Tech Gadgets, and Fashion!</p>
+        <img src="https://example.com/blog-banner.jpg" alt="Blog Banner">
+    </section>
+    
+    <section id="home-decor">
+        <h2>Home Décor</h2>
+        <p>Top picks to style your home.</p>
+        <img src="https://example.com/home-decor.jpg" alt="Home Décor">
+    </section>
+    
+    <section id="fitness">
+        <h2>Fitness</h2>
+        <p>Best fitness products to keep you in shape.</p>
+        <img src="https://example.com/fitness-enthusiast.jpg" alt="Fitness Enthusiast">
+    </section>
+    
+    <section id="tech-gadgets">
+        <h2>Tech Gadgets</h2>
+        <p>Latest gadgets and accessories.</p>
+        <img src="https://example.com/tech-gadgets.jpg" alt="Tech Enthusiast">
+    </section>
+    
+    <section id="fashion">
+        <h2>Fashion</h2>
+        <p>Trendy fashion essentials.</p>
+        <img src="DALL·E 2025-02-12 17.00.32 - A stylish flat lay of fashion essentials for both men and women, arranged neatly on a clean, modern background. The composition includes a luxury watc.webp" alt="Fashion Essentials">
+    </section>
+    
+    <section id="blog">
+        <h2>Latest Blog Posts</h2>
+        <p>Read our in-depth reviews and guides.</p>
+        <img src="https://example.com/blog-posts.jpg" alt="Blog Posts">
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Joy's Affiliate Blog. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
